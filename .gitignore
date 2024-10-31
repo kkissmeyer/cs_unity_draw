@@ -1,0 +1,46 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userprefs
+*.sln.ide
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bin/
+obj/
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# Unity specific
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]serSettings/
+Assets/AssetStoreTools*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~ 
+*.bak
+*.tmp
