@@ -2,8 +2,18 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp7.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <StartupObject>Program</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>..\YourUnityInstallation\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>..\YourUnityInstallation\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
+
